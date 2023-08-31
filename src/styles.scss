@@ -1,0 +1,145 @@
+/* Global Styles */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2,
+h3 {
+  font-weight: lighter;
+}
+h3 {
+  font-size: 1.3rem;
+}
+body {
+  padding: 0.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+@media (min-width: 600px) {
+  body {
+    padding: 2rem;
+  }
+}
+body,
+input[text] {
+  font-family: Cambria, Georgia, serif;
+}
+a {
+  cursor: pointer;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+  overflow: hidden;
+  background: #002699;
+  padding: 0.5em;
+  margin: auto;
+
+    a {
+      float: left;
+      font-size: 20px;
+      color:white;
+      background-color: #002699;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #fff;
+      background-color: #884dff;
+      text-decoration: none;
+    }
+
+    a:active {
+      color: #fff;
+      background-color: #0040ff;
+      text-decoration: none;
+    }
+}
+
+
+
+.nav2 {
+  display: flex;
+  flex: space-around ;
+  text-align: center;
+  padding: 1.6em;
+  font-size: 18px;
+  color: white;
+
+}
+
+
+form {
+  padding-top: 1rem;
+  padding-left: 5rem;
+}
+
+label {
+  display: block;
+  margin: .5em 0;
+  font-weight: bold;
+}
+
+button {
+  color: #fff;
+  background-color: #002699;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  text-decoration: none;
+  font-size: 20px;
+
+  :hover {
+    color: #fff;
+    background-color: #884dff;
+    text-decoration: none;
+  }
+
+  :active {
+    color: #fff;
+    background-color: #0040ff;
+    text-decoration: none;
+  }
+}
+
+input[type=text], select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  :hover {
+    background-color: #45a049;
+  }
+}
+
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
